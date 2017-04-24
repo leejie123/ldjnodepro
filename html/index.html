@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>helloworld</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div>
+		<input type="search" name="">
+		<button type="button" onclick="search()">搜索</button>
+	</div>
+	<div>
+		<h3>api document</h3>
+		<div>
+			
+		</div>
+	</div>
+	<div>
+		<h3>theorybook</h3>
+		<div>
+			
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="ajax.js"></script>
+<script type="text/javascript">
+ajax.send({url:"http://localhost:8888?[api1]:index&xxxx&xx"}, {data:"fjisif"});
+
+function search(e) {
+	ajax.send({url:"http://localhost:8888?[api1]:index&search&xx"})
+}
+</script>
+</html>
